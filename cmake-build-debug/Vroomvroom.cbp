@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Vroomvroom"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Vroomvroom">
+				<Option output="/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/cmake-build-debug/Vroomvroom.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/entities"/>
+					<Add directory="/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/core"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/cmake-build-debug/Makefile&quot;  VERBOSE=1 Vroomvroom"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Vroomvroom/fast">
+				<Option output="/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/cmake-build-debug/Vroomvroom.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/entities"/>
+					<Add directory="/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/core"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/cmake-build-debug/Makefile&quot;  VERBOSE=1 Vroomvroom/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/PlayerCar.cpp">
+			<Option target="Vroomvroom"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/PlayerCar.h">
+			<Option target="Vroomvroom"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/core/Controls.cpp">
+			<Option target="Vroomvroom"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/core/Controls.h">
+			<Option target="Vroomvroom"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/core/EntityManager.cpp">
+			<Option target="Vroomvroom"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/core/EntityManager.h">
+			<Option target="Vroomvroom"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/core/Screen.cpp">
+			<Option target="Vroomvroom"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/core/Screen.h">
+			<Option target="Vroomvroom"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/core/globals.cpp">
+			<Option target="Vroomvroom"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/core/globals.h">
+			<Option target="Vroomvroom"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/entities/Entity.cpp">
+			<Option target="Vroomvroom"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/entities/Entity.h">
+			<Option target="Vroomvroom"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/entities/FuelTank.cpp">
+			<Option target="Vroomvroom"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/entities/FuelTank.h">
+			<Option target="Vroomvroom"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/entities/Nail.cpp">
+			<Option target="Vroomvroom"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/entities/Nail.h">
+			<Option target="Vroomvroom"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/main.cpp">
+			<Option target="Vroomvroom"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/road.cpp">
+			<Option target="Vroomvroom"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/road.h">
+			<Option target="Vroomvroom"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Andrea/CLionProjects/Vroomvroom/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
